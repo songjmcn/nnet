@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/nnet/Autoencoder.py=utf-8
+encoding//src/nnet/Backpropagation.py=utf-8
 encoding//src/nnet/active.py=utf-8
 encoding//src/nnet/layer.py=utf-8
+encoding//src/nnet/softmax.py=utf-8
