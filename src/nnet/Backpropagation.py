@@ -77,7 +77,7 @@ class Backpropagation:
             self.layers[index].w=w
             self.Lambda[index].b=b
             tw=transpose(w)
-            dout=dot(dout,w)*active.dsigmoid(input)
+            dout=dot(dout,tw)*active.dsigmoid(input)
         return
     def test(self,samples,labels):
         m=samples.shape[0]
